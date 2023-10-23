@@ -1,0 +1,66 @@
+*{
+    padding : 0;
+    margin : 0;
+    background-color: #CDF5FD;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+form{
+    display : flex;
+    flex-direction : column;
+
+    margin : 5vh auto;
+    border : solid black 2px;
+    border-radius: 20px;
+    width : 60vh;
+    padding : 1em;
+    gap : .4em;
+    background-color: white;
+}
+
+label{
+    background-color: white;
+}
+input{
+    background-color: white;
+    border : none;
+    border-bottom : solid #00A9FF 2px;
+    border-left : solid #00A9FF 2px;
+
+    padding-left : 1%;
+}
+input[type = "file"]{
+    border : none;
+}
+div{
+    background-color: white;
+}
+select{
+    background-color: white;
+}
+input[type = "checkbox"]
+{
+    align-self : flex-start;
+}
+button{
+    width : fit-content;
+    padding : 1em 2em;
+    border-radius: 20px;
+    border : none;  
+    align-self: center;
+    background-color : #00A9FF;
+    color : white;  
+}
+
+p{
+    background-color : white;
+    display : none; 
+}
+
+@media screen and (max-width : 768px)
+{
+    form{
+        width : 80%;
+    }
+}
